@@ -91,7 +91,7 @@ def main():
                 logo[Dir] = down_right
 
             #Checking if logo bounced off the right edge:
-            #(width - 8 because 'One Piece' has 8 characters.)
+            #(width - 9 because 'One Piece' has 9 characters.)
             elif logo[X] == width - 9 and logo[Dir] == up_right:
                 logo[Dir] = up_left
             elif logo[X] == width - 9 and logo[Dir] == down_right:
